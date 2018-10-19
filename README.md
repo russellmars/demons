@@ -7,17 +7,15 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run dev
 ```
 
 ### Compiles and minifies for production
-```
+``` bash
+# 线上生产环境
 npm run build
-```
-
-### Run your tests
-```
-npm run test
+# 集成测试环境
+npm run build --test
 ```
 
 ### Lints and fixes files

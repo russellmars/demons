@@ -4,6 +4,9 @@
 
 <script>
 import AppConst from '@/config'
+/**
+ * 微信登陆授权中转页面
+ */
 export default {
   mounted() {
     // openid 授权中转页面
